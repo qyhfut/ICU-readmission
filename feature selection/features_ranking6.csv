@@ -1,0 +1,17 @@
+features,score
+BPH,1
+BPL,1
+CVP,1
+FiO2,1
+LOS,1
+MAP,1
+SpO2,1
+age,1
+diagnosis,1
+disposition,3
+gender,1
+hr,1
+resprate,1
+severity,2
+source,1
+temp,1
