@@ -37,7 +37,7 @@ def get_feature_ranking(X_train,y_train):
     lgb_ranking = []
     for x,w in zip(rfecv.ranking_, X_train.columns):
        lgb_ranking.append([w, x])
-    lgb_ranking = pd.DataFrame(lgb_ranking, columns=['features', 'score'])
+    lgb_ranking = pd.DataFrame(lgb_ranking, columns=['features', 'ranking'])
     lgb_ranking.sort_values('features', inplace=True)
 
     df_ranked = lgb_ranking
