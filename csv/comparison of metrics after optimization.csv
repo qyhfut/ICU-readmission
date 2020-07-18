@@ -1,7 +1,0 @@
-﻿,LightGBM,optimized LightGBM
-Accuracy,84.9,86.53
-Precision,48.65,55.84
-Recall,46,51.31
-Specificity,74.55,76.86
-F1-score,47,52.44
-G-mean,58.43,62.6
